@@ -6,8 +6,8 @@ $TTL	604800
 	2419200	;	Expire
 	604800 )	;	Negative Cache TTL
 	
-IN	NS	darthvader.starwars.lan.
-IN	NS	darthsidious.starwars.lan.
+@	IN	NS	darthvader.starwars.lan.
+@	IN	NS	darthsidious.starwars.lan.
 
 10	IN	PTR darthvader.starwars.lan.
 101	IN	PTR	skywalker.starwars.lan.
